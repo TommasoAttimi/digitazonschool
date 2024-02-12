@@ -1,0 +1,51 @@
+@Student "compiti per le vacanze" (ha sempre una connotazione malvagia nella mia mente scrivere questa roba :D)
+
+Esercizi di base da saper fare prima del rientro dalle vacanze, ognuno di questi va saputo fare senza controllare la soluzione, come dicevo vi chiedero' di svolgerli in condivisione di schermo quando torneremo:
+//OK 1) scrivere un ciclo for che stampi tutti i numeri dispari da 1 a `n` 
+//chiedere ad alberto 2) scrivere del codice che data una variabile `x` di cui non conoscete il valore stampi `"truthy"` o `"falsey"` in base alla sua natura quando valutata in contesto booleano
+//OK 3) a parole vostre, senza andare a vedere documentazione o altro, dare una definizione di 
+* variabile
+* ciclo for
+* costrutto for
+* significato dell'espressione "qualsiasi valore in JavaScript se valutato in un contesto booleano valutera' a truthy o falsey"
+//chiedere ad alberto 4) leggendo online la documentazione dell'operatore `typeof` scrivere del codice che data una variabile `x` sia in grado di stampare `"x e' una stringa"` se per esempio `x` contiene una stringa, e rispettivamente per numeri e booleani
+//OK 5) scrivere del codice che stampi a video tutte le tabelline dei numeri da 0 a 10, quindi la tabellina dello 0, dell'1, del 2, etc, seguendo obbligatoriamente questo formato:
+0 * 0 = 0
+1 * 0 = 0
+2 * 0 = 0 
+etc
+
+Ulteriori esercizi da fare, questi sono quelli su cui dovete impegnarvi, quelli di prima sono molto base:
+
+1) disegnare una clessidra con solo la parte inferiore piena
+```
+*******
+ *   *
+  * *
+   *
+  ***
+ *****
+*******
+```
+
+2) immaginando di avere 
+ * dentro una variabile `forma` uno tra `"triangolo"`, `"quadrato"`, `"rettangolo"`
+ * dentro altre due variabili i valori necessari
+scrivere del codice che permetta di ottenere l'area per qualsiasi forma possibile, suggerimento: dovete avere almeno 3 `if`
+
+// quasi 3) dato un numero contenuto in una variabile `n` calcolare il relativo numero di Fibonacci (https://it.wikipedia.org/wiki/Successione_di_Fibonacci), ad esempio se `n` fosse 1 allora avremmo 0, se `n` fosse 3 avremmo 1, se `n` fosse 5 avremmo 3, etc.
+
+4) sempre sulla stessa pagina di 3) leggere in merito al triangolo di Tartaglia e stamparlo a video
+
+// quasi 5) scrivere un ciclo for da 1 a 100, quando il numero corrente e' divisibile per 3 deve stampare a video `"fizz"`, quando il numero corrente e' divisibile per 5 deve stampare a video `"buzz"`, quando il numero corrente e' divisibile per 3 e per 5 deve stampare a video `"fizzbuzz"`, quando il numero non e' divisibile per nessuno di questi deve stampare a video il numero stesso
+esempio di stampa per i primi numeri:
+1
+2
+fizz
+4
+buzz
+fizz
+7
+...
+14
+fizzbuzz

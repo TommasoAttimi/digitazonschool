@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form Multistep</title>
+    <link rel="stylesheet" href="./assets/css/stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+<body>
+    <article id="form-component">
+        <!-- Intestazione -->
+        <section id="form-info">
+            <h1>Form Multistep</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, beatae.</p>
+        </section>
+
+        <!-- Indicatori -->
+        <section id="form-indicator">
+            <div class="step-status" data-step="1">
+                <p class="step-info">
+                    Informazioni base
+                </p>
+                <div class="step-indicator">
+                    <div class="indicator-item current">
+                        1
+                    </div>
+                </div>
+            </div>
+            <div class="step-status" data-step="1">
+                <p class="step-info">
+                    Dati Account
+                </p>
+                <div class="step-indicator">
+                    <div class="indicator-item current">
+                        2
+                    </div>
+                </div>
+            </div>
+            <div class="step-status" data-step="1">
+                <p class="step-info">
+                    Riepilogo e Invio
+                </p>
+                <div class="step-indicator">
+                    <div class="indicator-item current">
+                        3
+                    </div>
+                </div>
+            </div>
+            <div class="step-status inviato" data-step="inviato">
+                <p class="step-info">
+                    Invio avvenuto
+                </p>
+                <div class="step-indicator">
+                    <div class="indicator-item current">
+                        &check;
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Campi del Form -->
+        <section id="form-wrapper">
+
+        </section>
+    </article>
+</body>
+</html>
+

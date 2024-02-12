@@ -1,0 +1,5 @@
+// a parole vostre, senza andare a vedere documentazione o altro, dare una definizione di
+* variabile = contentitore che ha un'etichetta e che a sua volta ha un valore
+* ciclo for = ciclo per implementare il costrutto formato dai 4 valori
+* costrutto for = iterazione per ripetere un'operazione n volte
+* significato dell'espressione "qualsiasi valore in JavaScript se valutato in un contesto booleano valutera' a truthy o falsey" = quando si valutano le espressioni booleane, esiste il concetto di truthy o falsey, ovvero se ci sono dei valori che sono 0, false, null, NaN, undefined o "" allora dara' falsey, altrimenti sara truthy

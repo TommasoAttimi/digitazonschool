@@ -1,0 +1,57 @@
+:root {
+    background-color: grey;
+    color: white;
+}
+
+#sezione {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 100px, 200px, 200px, 150px;
+    grid-template-areas:
+    "viola viola viola"
+    "verde blue1 blue1"
+    "verde blue2 blue3"
+    "viola1 viola1 viola1";
+    gap: 10px;
+}
+
+.container1, .container2, .container3, .container4, .container5, .container6 {
+    border: 1px solid black;
+}
+
+.container1 {
+    background-color: blueviolet;
+    grid-area: viola;
+    text-align: center;
+}
+
+.container2 {
+    background-color: aquamarine;
+    grid-area: verde;
+    text-align: center;
+}
+
+.container3 {
+    background-color: lightblue;
+    grid-area: blue1;
+    text-align: center;
+}
+
+.container4 {
+    background-color: lightblue;
+    grid-area: blue2;
+    text-align: center;
+}
+
+.container5 {
+    background-color: lightblue;
+    grid-area: blue3;
+    text-align: center;
+}
+
+.container6 {
+    background-color: blueviolet;
+    grid-area: viola1;
+    text-align: center;
+}

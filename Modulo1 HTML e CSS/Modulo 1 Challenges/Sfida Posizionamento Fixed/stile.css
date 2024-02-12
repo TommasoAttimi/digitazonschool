@@ -1,0 +1,37 @@
+:root {
+    font-size: 2rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+[id^="cerchio"] {
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+#cerchio-1 {
+    top: 0;
+    left: 0
+}
+#cerchio-2 {
+    top: 0;
+    right: 0;
+}
+#cerchio-3 {
+    bottom: 0;
+    right: 0;
+}
+#cerchio-4 {
+    bottom: 0;
+    left: 0;
+}
+#cerchio-centrale {
+    top: 50;
+    left: 50;
+}

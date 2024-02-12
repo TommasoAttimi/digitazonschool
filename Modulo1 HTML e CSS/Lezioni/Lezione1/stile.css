@@ -1,0 +1,67 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+
+}
+
+#creazione1>div {
+    background-color: white;
+    color: blue;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+section#creazione1 {
+    display: flex;
+    gap: 1rem;
+    margin-left: 10px;
+}
+
+#creazione2 {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#creazione2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#creazione2 div {
+    width: 20px;
+}
+
+#creazione1 input {
+    width: 300px;
+}
+
+#creazione2 img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+#main-main {
+    height: 500px;
+    width: 600px;
+    background-image: url(immaginequadratini.jpg);
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#main-main div {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

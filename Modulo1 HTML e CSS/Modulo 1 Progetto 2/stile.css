@@ -1,0 +1,55 @@
+/*
+ * BREAKPOINT
+ *
+ * < 600px      small device 
+ * >= 600px     large device
+ *
+*/
+
+/* Effettuato riordino variabili */
+:root {
+    font-size: 62.5%;
+    --font-standard: 'Raleway', sans-serif;
+    --font-size-s: 1.4rem;
+    --font-size-xs: calc(var(--font-size-s) * 0.9);
+    --font-size-m: calc(var(--font-size-s) * 1.2);
+    --font-size-l: calc(var(--font-size-s) * 1.5);
+    --font-size-xl: calc(var(--font-size-s) * 2);
+    --gap-s: 1.5rem;
+    --gap-m: calc(var(--gap-s) * 2);
+    --gap-l: calc(var(--gap-s) * 3);
+    --gap-xl: calc(var(--gap-s) * 5);
+    --color-white: #fff;
+    --color-dark: hsl(0, 0%, 28%);
+    --color-gray: hsl(0, 0%, 56%);
+    --color-light: hsl(0, 0%, 90%);
+    --color-primary: hsl(345, 99%, 62%);
+    --color-secondary: hsl(165, 96%, 44%);
+    --max-block-width: 1200px;
+}
+/* Reset anche per pseudoelementi after e before */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0.8em 1.8em;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: var(--font-size-xs);
+}
+body {
+    padding: var(--gap-m);
+    font-size: var(--font-size-m);
+    color: var(--color-dark);
+    font-family: var(--font-standard);
+    line-height: 1.5em;
+    background-color: var(--color-light);
+}

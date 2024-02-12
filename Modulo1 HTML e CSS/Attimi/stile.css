@@ -1,0 +1,130 @@
+:root {
+    background-color: rgba(11, 9, 9, 0.699);
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+div#logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 2rem;
+}
+
+div#logo img {
+    width: 100px;
+    height: 100px;
+}
+
+div#logo > h1 {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+#nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    position: relative;
+    top: 30px;
+    font-size: 1.2rem;
+}
+
+#nav-list > li {
+    list-style-type: none;
+    text-decoration: none; /* non funziona? */
+    color: white; /* non funziona? */
+}
+
+#nav-list:nth-child(1) {
+    border-right: 2px solid white; /*non funziona */
+}
+
+#nav-list > li:hover {
+    font-style: italic;
+}
+
+/*#quick-portfolio {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 0.5rem;
+    overflow-x: auto;
+    position: relative;
+    top: 100px;
+}*/
+
+#footer-insta {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    top: 200px;
+}
+
+#about-me {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }

@@ -1,0 +1,21 @@
+:root {
+    font-size: 2rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#inverti {
+    background-color: yellow;
+    font-size: 2rem;
+}
+#pulsante2 {
+    background-color: orange;
+    font-size: 2rem;
+}
+#inverti:hover {
+background-color: orange;
+}
+#pulsante2:hover {
+    background-color: yellow;
+}

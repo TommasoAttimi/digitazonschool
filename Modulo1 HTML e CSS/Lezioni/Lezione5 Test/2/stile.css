@@ -1,0 +1,194 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile per header */
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    padding-right: 40px;
+}
+
+#menu li {
+    display: none;
+}
+
+#logo {
+    padding-left: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #B9E4FF;
+}
+    
+
+/* Stile per main */
+
+#sezione-main, #software {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#2A2D34;
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+#software {
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+#h-software {
+    font-size: 2.2rem;
+    font-weight: 200;
+}
+
+.lists {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lists-box {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    background-color: #D9D9D9;
+    border-style: none;
+    place-content: center;
+}
+
+#standard-btn {
+    background-color: #F26633;
+    color: rgb(255, 255, 255);
+}
+
+#basic {
+    background-color: #12CFEC;
+    width: 250px;
+    height: 400px;
+    margin-top: 15px;
+}
+
+#list-basic {
+    background-color: #3E454D;
+    width: 205px;
+    height: 272px;
+}
+
+.h-basic {
+    text-align: center;
+}
+
+#standard {
+    background-color:#F26633;
+    width: 250px;
+    height: 400px;
+    margin-top: 15px;
+}
+
+#list-standard {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 205px;
+    height: 272px;
+}
+
+.h-standard {
+    text-align: center;
+}
+
+#premium {
+    background-color: #12CFEC;
+    width: 250px;
+    height: 400px;
+    margin-top: 15px;
+}
+
+#list-premium {
+    background-color: #3E454D;
+    width: 205px;
+    height: 272px;
+}
+
+.h-premium {
+    text-align: center;
+}
+
+/* Stile per footer */
+
+#footer {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+#main-footer, #bottom-footer {
+    text-align: center;
+    font-weight: 100;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+#bottom-footer {
+    padding: 30px;
+}
+
+#footer a {
+    color: #B9E4FF;
+}
+
+/* media query */
+
+@media (min-width: 800px) {
+
+    #sezione-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 17px;
+    }
+
+    #logo {
+        padding-left: 200px;
+    }
+
+    #menu img {
+        display: none;
+    }
+
+    #menu li {
+        display: inline;
+        list-style-type: none;
+        color: #B9E4FF;
+        justify-content: space-evenly;
+        padding-right: 50px;
+    }
+
+    #menu li:not(:last-child) {
+        border-right: 2px solid #B9E4FF;
+        padding: 0 5px 0 0;
+    }
+}
