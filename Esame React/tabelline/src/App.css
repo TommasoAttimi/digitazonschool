@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  height: 100vw;
+  background-color: rgb(17, 17, 17);
+}
+
+.insert {
+  color: rgb(33, 192, 192);
+  text-transform: uppercase;
+}
+
+.input {
+  width: 150px;
+  height: 20px;
+  border: 1px solid #767983;
+}
+
+input[placeholder] {
+  text-align: center;
+}
+
+.multiplicationtable {
+  color: rgb(153, 0, 0);
+}
+
+.multiplications {
+  color: azure;
+}

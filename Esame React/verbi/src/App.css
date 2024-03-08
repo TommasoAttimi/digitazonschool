@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: rgb(17, 17, 17);
+  height: 100vw;
+}
+
+.words {
+  text-transform: capitalize;
+  color: rgb(33, 192, 192);
+}
+
+.score {
+  color: rgb(153, 0, 0);
+}
+
+.maxscore {
+  color: rgb(195, 237, 28);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.verb {
+  color: green;
+}
+
+.notaverb {
+  color: red;
+}
