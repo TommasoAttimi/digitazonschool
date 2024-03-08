@@ -1,0 +1,74 @@
+/* .App {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+} */
+#root,
+html,
+body {
+  height: 100%;
+}
+.imgItem {
+  height: 200px;
+}
+.container-products {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: flex-start;
+  margin: 40px;
+  font-size: 18px;
+}
+.header-goal {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  gap: 20px;
+  background-color: rgb(189, 244, 244);
+  border-bottom: 1px solid rgb(5, 37, 44);
+  /* position: absolute;
+  top: 3%;
+  right: 5%;
+  display: flex;
+  gap: 30px;
+  font-size: 20px; */
+}
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  width: 350px;
+  padding: 20px;
+  height: 300px;
+}
+.item-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  gap: 20px;
+}
+.item-login > input {
+  border: 1px solid rgb(42, 151, 219);
+}
+.login-button {
+  background-color: rgb(42, 151, 219);
+  border: 1px solid rgb(42, 151, 219);
+  color: white;
+}
+.error {
+  border: 1px solid red;
+}
+.addItem {
+  border: 1px solid rgb(5, 37, 44);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  justify-content: flex-start;
+  width: 40%;
+}

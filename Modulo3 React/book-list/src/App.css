@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  gap: 7px;
+}
+
+.list {
+  border: 1px solid black;
+  width: 200px;
+  height: 400px;
+}
+
+.singleBook {
+  display: flex;
+  justify-items: center;
+  gap: 10px;
+}
+
+.read {
+  border: 1px solid black;
+  width: 200px;
+  height: 400px;
+}
+
+.favorites {
+  border: 1px solid black;
+  width: 200px;
+  height: 400px;
+}
+
+.list > h3,
+.read > h3,
+.favorites > h3 {
+  display: flex;
+  justify-content: center;
+}

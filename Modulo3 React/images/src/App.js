@@ -1,11 +1,11 @@
 import "./App.css";
-import Images from "./components/Images";
-import Remove from "./components/Remove";
+import Container from "./components/Container";
+import Image from "./components/Image";
 
 function App() {
   return (
     <div>
-      <Images className="container"></Images>;<Remove></Remove>
+      <Container />
     </div>
   );
 }

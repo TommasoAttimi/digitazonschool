@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-inner {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxes {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+}
+
+.blue {
+  border: 1px solid blue;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.pink {
+  border: 1px solid pink;
+}
